@@ -19,7 +19,7 @@ public class CashMachine {
     }
 
     private Consumer<AccountData> update = data -> {
-        accountData = data;
+        accountData = date;
     };
 
     public void login(int id) {
