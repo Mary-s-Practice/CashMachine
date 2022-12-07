@@ -24,7 +24,7 @@ public abstract class Account {
             updateBalance(getBalance() - amount);
             return true;
         } else {
-            return false;
+            return true;
         }
     }
 
